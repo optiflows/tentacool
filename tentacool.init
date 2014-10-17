@@ -13,7 +13,7 @@ NAME=tentacool
 
 DAEMON="/usr/bin/tentacool"
 DAEMONUSER="root"
-PIDFILE="/var/run/burrowapi.pid"
+PIDFILE="/var/run/${NAME}.pid"
 
 PATH="/sbin:/bin:/usr/sbin:/usr/bin"
 
