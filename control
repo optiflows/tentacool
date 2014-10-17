@@ -1,0 +1,13 @@
+Source: tentacool
+Section: net
+Priority: optional
+Maintainer: Guilhem Lettron <guilhem@lettron.fr>
+Build-Depends: debhelper (>= 8.0.0), golang-go
+Standards-Version: 3.9.4
+Homepage: https://github.com/optiflows/tentacool
+
+Package: tentacool
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: REST API to manage Linux networking via netlink
+ tentacool is a Go server controlled via RESTful API through a Unix Domain Socket.

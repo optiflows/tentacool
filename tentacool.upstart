@@ -1,0 +1,12 @@
+description "tentacool"
+author "Guilhem Lettron <guilhem.lettron@optiflows.com>"
+
+start on runlevel [2345]
+stop on runlevel [!2345]
+
+respawn
+
+script
+	[ -f /etc/default/$UPSTART_JOB ] && . /etc/default/$UPSTART_JOB
+	exec tentacool $TENTACOOL_OPTS
+end script
