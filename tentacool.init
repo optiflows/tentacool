@@ -21,9 +21,8 @@ test -x $DAEMON || exit 0
 
 . /lib/lsb/init-functions
 
-if [ -f /etc/default/$NAME ]; then
-	. /etc/default/$NAME
-fi
+[ -f /etc/default/$NAME ] && . /etc/default/$NAME
+[ -f /etc/default/$NAME.override ] && . /etc/default/$NAME.override
 
 d_start () {
 	log_daemon_msg "Starting $NAME"

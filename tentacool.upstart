@@ -8,5 +8,6 @@ respawn
 
 script
 	[ -f /etc/default/$UPSTART_JOB ] && . /etc/default/$UPSTART_JOB
+	[ -f /etc/default/$UPSTART_JOB.override ] && . /etc/default/$UPSTART_JOB.override
 	exec tentacool $TENTACOOL_OPTS
 end script
