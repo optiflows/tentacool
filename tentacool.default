@@ -1,2 +1,2 @@
 # Use TENTACOOL_OPTS to modify the daemon startup options.
-#TENTACOOL_OPTS="-bind='/var/run/tentacool' -db='/var/lib/tentacool/db'"
+#TENTACOOL_OPTS="-bind=/var/run/tentacool -db=/var/lib/tentacool/db"
