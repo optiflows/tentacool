@@ -2,7 +2,7 @@ Source: tentacool
 Section: net
 Priority: optional
 Maintainer: Guilhem Lettron <guilhem@lettron.fr>
-Build-Depends: debhelper (>= 8.0.0), golang-go, git
+Build-Depends: debhelper (>= 8.0.0), golang-go (>= 2:1.2), git
 Standards-Version: 3.9.4
 Homepage: https://github.com/optiflows/tentacool
 
