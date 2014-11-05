@@ -1,0 +1,14 @@
+#!/bin/sh
+
+set -e
+
+case "$1" in
+
+  configure)
+    addgroup --quiet --system tentacool
+    adduser --quiet --system --ingroup tentacool --home /var/lib/tentacool tentacool
+  ;;
+
+esac
+
+#DEBHELPER#
