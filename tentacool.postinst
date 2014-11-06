@@ -7,6 +7,14 @@ case "$1" in
   configure)
     addgroup --quiet --system tentacool
     adduser --quiet --system --ingroup tentacool --home /var/lib/tentacool tentacool
+
+    set +e
+
+    update-rc.d tentacool defaults > /dev/null
+    invoke-rc.d tentacool start
+
+    set -e
+
   ;;
 
 esac
