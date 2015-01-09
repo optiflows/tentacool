@@ -1,3 +1,9 @@
+tentacool (0.3.0-1) unstable; urgency=low
+
+  * Add a CLI option to set an IP
+
+ -- cyril <cyril@devbox>  Fri, 09 Jan 2015 15:27:53 +0100
+
 tentacool (0.2.0-1) unstable; urgency=medium
 
   * Add gateway workaround & cleaning old ip set on an interface  
