@@ -1,3 +1,9 @@
+tentacool (0.4.0-1) unstable; urgency=low
+
+  * Fixing versions dependencies.
+
+ -- laurent <laurent.erignoux@optiflows.com>  Wed, 11 Mar 2015 18:47:53 +0100
+
 tentacool (0.3.0-1) unstable; urgency=low
 
   * Add a CLI option to set an IP
@@ -6,7 +12,7 @@ tentacool (0.3.0-1) unstable; urgency=low
 
 tentacool (0.2.0-1) unstable; urgency=medium
 
-  * Add gateway workaround & cleaning old ip set on an interface  
+  * Add gateway workaround & cleaning old ip set on an interface
 
  -- guillaume <guillaume@guillaume-Vostro-470>  Mon, 15 Dec 2014 16:12:10 +0100
 
