@@ -2,6 +2,7 @@
 [![Build Status](https://drone.io/github.com/optiflows/tentacool/status.png)](https://drone.io/github.com/optiflows/tentacool/latest)
 [![Go Walker](https://img.shields.io/badge/GoWalker-Doc-blue.svg?style=flat)](https://gowalker.org/github.com/optiflows/tentacool)
 [![Go report](http://goreportcard.com/badge/optiflows/tentacool)](http://goreportcard.com/report/optiflows/tentacool)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Foptiflows%2Ftentacool.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Foptiflows%2Ftentacool?ref=badge_shield)
 
 
 ## Description
@@ -156,3 +157,7 @@ Activate/deactive DHCP for default interface.
 ##### parameters
 
 * active `true` or `false`
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Foptiflows%2Ftentacool.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Foptiflows%2Ftentacool?ref=badge_large)
